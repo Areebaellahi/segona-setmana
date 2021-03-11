@@ -14,7 +14,16 @@
 <p>Després d'instal·lar el mkcert hem de crear la clau i el certificat.</p>
 <p>En el terminal posem:</p>
 <p>- mkcert example.com "*example.com" example.test inte 10.5.2.14</p>
-<p>He creat la clau i el certificat amb el nom exemple.com</p>
+<p>He creat la clau i el certificat amb el nom exemple.com, Ara vull canviar el nom de example.com per "clave.pem" i "certificat.pem":</p>
+<p>- mv example.com+4-key.pem clau.pem</p>
+<p>- mv example.com+4.pem certificat.pem</p>
+<p><img src="https://raw.githubusercontent.com/Areebaellahi/FOTOS/main/claucerti.png" alt="Cat"></p>
+<p>Una vegada creat els certificats, anem a firefox i posem la ip del inte i barra admin (https://10.5.2.14/admin)i fem login:</p>
+<p>Anem a "System settings" > "TLS certificate"</p>
+<p>Ara posem la clau i els certificats fent click a Browse</p>
+<p><img src="https://raw.githubusercontent.com/Areebaellahi/FOTOS/main/browse.png" alt="Cat"></p>
+Una cop posat la clau i el certificat anem a inte per reiniciar docker:
+
 
 
 
