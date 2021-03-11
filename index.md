@@ -23,9 +23,11 @@
 <p>Ara posem la clau i els certificats fent click a Browse</p>
 <p><img src="https://raw.githubusercontent.com/Areebaellahi/FOTOS/main/browse.png" alt="Cat"></p>
 Una cop posat la clau i el certificat anem a inte per reiniciar docker:
+<p>- docker stop areeba</p>
+<p>- docker start areeba/p>
+<p><img src="https://raw.githubusercontent.com/Areebaellahi/FOTOS/main/a.png" alt="Cat"></p>
+<p>Reiniciem la pagina de poste.io i ens surtirà la connexió segura:</p>
+<p><img src="https://raw.githubusercontent.com/Areebaellahi/FOTOS/main/cert.png" alt="Cat"></p>
+<p><img src="https://raw.githubusercontent.com/Areebaellahi/FOTOS/main/cert.png" alt="Cat"></p>
 
-
-
-
-<p><img src="https://raw.githubusercontent.com/Areebaellahi/FOTOS/main/6.png" alt="Cat"></p>
 
